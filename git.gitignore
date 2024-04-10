@@ -1,1 +1,11 @@
-print('hello')
+from other_file import my_list
+
+def main():
+    print("Hello, world!")
+    print("my list from other file:", my_list)
+
+if __name__ == "__main__":
+    main()
+
+__pycache__/
+*.pyc
